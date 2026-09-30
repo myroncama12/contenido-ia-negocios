@@ -56,6 +56,28 @@ no funcionaba porque [razón]. Ahora [práctica mejorada actual]."* Esto
 funciona mejor que simplemente afirmar "nosotros sí hacemos bien X", porque
 muestra evolución real en vez de una promesa vacía.
 
+## Estructuras completas de pieza (no solo gancho de apertura)
+
+Las categorías de arriba cubren el gancho de apertura. Para la pieza
+completa, dos estructuras alternativas a "Doble Caída"
+(`framework-contenido.md`):
+
+- **Patrón Rompe-Creencia** (`patron-rompe-creencia.md`) — negar una
+  creencia del nicho y reemplazarla por el deseo real. Úsalo cuando el
+  objetivo sea detener el scroll con fricción cognitiva, no solo un gancho
+  sensorial.
+- **Historias que venden** (`historias-generico.md`) — patrón de una sola
+  historia (Stories) con hook de imaginación en segunda persona, para
+  vender sin sonar a venta directa.
+
+## Antes de usar la estructura genérica, revisá si el negocio ya tiene algo propio validado
+
+Si `config/patrones-propios.md` existe y tiene un patrón en estado
+"Probado" que encaja con el objetivo de la pieza, ese patrón — construido
+con datos reales de ese negocio — es mejor punto de partida que cualquier
+plantilla genérica de este archivo. Ver `patrones-propios.md` para el
+mecanismo completo.
+
 ## Cuando no hay datos todavía para definir el dolor del buyer persona
 
 Si `config/buyer-persona.md` no tiene comentarios/DMs/datos reales que

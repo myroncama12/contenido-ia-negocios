@@ -15,6 +15,12 @@ nombre no calza exacto):
 | `identidad-marca.md` | Paleta de colores (hex), tipografías, tono de voz, filosofía/diferenciador, competencia | Secciones 1 y 5 |
 | `estado-redes.md` | Qué ha funcionado o no antes en sus redes | Sección 6 |
 | `restricciones.md` | Qué no mostrar/decir, lineamientos de marcas de terceros que revenden | Sección 8 |
+| `patrones-propios.md` *(opcional)* | Patrones de contenido validados con data real del propio negocio, que mandan sobre la estructura genérica para el gancho/formato cuando aplican | Se construye con el tiempo, no sale del Formulario inicial — ver `patrones-propios.md` |
+
+**Nota sobre `patrones-propios.md`:** a diferencia de los otros 6, este
+documento no es obligatorio desde el día uno — se va construyendo a medida
+que el negocio acumula resultados reales. Si no existe todavía, no hay que
+pedirlo ni bloquear el trabajo por su ausencia.
 
 **Nota sobre `restricciones.md`:** además de lo que pida el negocio
 explícitamente, preguntá siempre si hay información operativa que prefieran
@@ -32,8 +38,9 @@ marca real al que recurrir.
 
 ## Cómo se usa esta configuración en cada módulo
 
-- **Estrategia y copy** (`framework-contenido.md`, `ganchos-generico.md`):
-  lee buyer-persona, catalogo, objetivos e identidad-marca.
+- **Estrategia y copy** (`framework-contenido.md`, `ganchos-generico.md`,
+  `patron-rompe-creencia.md`, `historias-generico.md`): lee buyer-persona,
+  catalogo, objetivos, identidad-marca y, si existe, patrones-propios.
 - **Diseño de carrusel** (`patrones-slides.md`, `guia-visual-generica.md`):
   lee identidad-marca para paleta/tipografía/logo — ver esa guía para cómo
   trasladar esos datos a `scripts/theme.py`.
