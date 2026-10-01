@@ -42,6 +42,9 @@ fuentes) o al propio `SKILL.md`, porque esos viven localmente en cada cuenta
   ejes de contenido semanal. Módulo Estrategia y Copy.
 - `references/ganchos-generico.md` — tipos de gancho, CTAs, tono. Módulo
   Estrategia y Copy.
+- `references/patron-pilares-de-valor.md` — estructura de retención
+  (preguntas abiertas y mini recompensas) para después del gancho; se
+  combina con el patrón rompe-creencia. Módulo Estrategia y Copy.
 - `references/guia-visual-generica.md` — setup de tema (`theme.py`) por
   negocio. Módulo Diseño Visual.
 - `references/patrones-slides.md` — 5 patrones de slide/carrusel. Módulo

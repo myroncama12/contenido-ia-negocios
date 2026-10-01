@@ -150,6 +150,9 @@ negocio activo, nunca de estos ejemplos genéricos.
 - No usarlo en piezas que van directo a venta (banners de producto con
   precio, preórdenes) ni en mensajes de comunidad tipo respuestas a
   DM/comentarios — ahí el objetivo y el tono son distintos.
+- Para sostener la retención después del gancho y el reveal, combinarlo con
+  `patron-pilares-de-valor.md` (preguntas abiertas y mini recompensas
+  repartidas en el desarrollo).
 
 ## Chequeo final antes de entregar
 
