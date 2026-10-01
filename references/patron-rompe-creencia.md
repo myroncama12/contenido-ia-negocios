@@ -128,6 +128,16 @@ Estos son puntos de partida — la creencia y el reemplazo reales siempre
 salen de `config/buyer-persona.md` e `config/identidad-marca.md` del
 negocio activo, nunca de estos ejemplos genéricos.
 
+## Ejemplos de Aplicación por Industria
+
+| Industria | Creencia Tradicional (Mito) | Disrupción / Romper el Patrón | Nueva Verdad (Reencuadre) |
+| :--- | :--- | :--- | :--- |
+| **Fitness** | "Debes entrenar 2 horas diarias para ver resultados." | *"Ir al gimnasio todos los días está saboteando tus músculos."* | El sobreentrenamiento eleva el cortisol y destruye masa muscular. 30 minutos de alta intensidad con descanso estratégico queman más grasa. |
+| **Negocios** | "Necesitas mucho dinero para empezar una empresa." | *"Tener capital inicial es la forma más rápida de que tu negocio quiebre."* | El exceso de capital oculta fallas operativas. Empezar sin fondos te obliga a validar tu propuesta con clientes reales desde el día uno. |
+| **Marketing** | "El contenido bonito y estético atrae más clientes." | *"Hacer videos perfectos está matando tus ventas."* | La sobreproducción genera desconfianza. El contenido crudo, auténtico y de alto valor educativo es el que genera mayor conexión y conversión. |
+| **Productividad** | "Debes despertarte a las 5:00 AM para ser exitoso." | *"Madrugar está destruyendo tu capacidad de enfoque."* | Forzar tu cronotipo natural genera fatiga acumulada. Es mejor optimizar tus bloques de energía biológica que cumplir un horario arbitrario. |
+| **Finanzas** | "Ahorrar todo tu dinero en el banco es la opción más segura." | *"Guardar tu dinero en el banco te hace perder capital cada día."* | La inflación silenciose erosiona el poder adquisitivo. La verdadera seguridad financiera se construye diversificando en activos que superen la inflación. |
+
 ## Cómo se combina con el resto del skill
 
 - Este patrón es una estructura más, no reemplaza las reglas de marca —
