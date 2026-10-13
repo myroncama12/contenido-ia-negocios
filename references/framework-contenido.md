@@ -4,6 +4,12 @@ Este framework aplica a cualquier negocio configurado en el Project — los
 detalles (persona, tono, producto) salen de `config/*.md` (ver
 `config-negocio.md`), la estructura de abajo es fija.
 
+**Si el pedido es armar un embudo de contenido** (un embudo para vender algo
+específico, o uno abierto para complementar el contenido semanal), traé también
+`embudo-contenido.md` antes de seguir: define las preguntas de entrada, los
+modos, cómo se reparten las etapas según el objetivo y el formato de entrega.
+Las etapas y los ejes que se usan para eso están definidos acá abajo.
+
 ## La Estructura "Doble Caída" (Double Drop)
 
 Cada video corto (TikTok/Reel) sigue este flujo basado en retención:
@@ -90,3 +96,5 @@ plataforma en vez de asumir que la misma pieza sirve igual en todos lados.
 3. Para guiones: seguí la Doble Caída, llenando cada fase con el dolor/deseo
    real del buyer persona de ese negocio.
 4. Para copy y ganchos: ver `ganchos-generico.md`.
+5. Para armar un embudo a pedido (por producto o abierto): ver
+   `embudo-contenido.md`.

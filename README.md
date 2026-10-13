@@ -40,6 +40,10 @@ fuentes) o al propio `SKILL.md`, porque esos viven localmente en cada cuenta
   cada Project cliente (buyer persona, catálogo, objetivos, identidad).
 - `references/framework-contenido.md` — embudo, estructura "Doble Caída",
   ejes de contenido semanal. Módulo Estrategia y Copy.
+- `references/embudo-contenido.md` — constructor de embudo a pedido: preguntas
+  de entrada, modos (producto específico / abierto), pesos por etapa según el
+  objetivo y formato de entrega. Se alcanza desde `framework-contenido.md`.
+  Módulo Estrategia y Copy.
 - `references/ganchos-generico.md` — tipos de gancho, CTAs, tono. Módulo
   Estrategia y Copy.
 - `references/patron-pilares-de-valor.md` — estructura de retención
