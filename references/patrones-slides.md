@@ -1,6 +1,6 @@
 # Patrones de Slides (genérico)
 
-Cada slide de un carrusel cae normalmente en uno de estos 5 patrones. Elegí
+Cada slide de un carrusel cae normalmente en uno de estos 6 patrones. Elegí
 el que corresponda según el guion, en vez de inventar layout desde cero.
 Todos los ejemplos asumen que ya hiciste el setup de `theme.py` para el
 negocio activo (ver `guia-visual-generica.md`) y que estás en una carpeta
@@ -205,6 +205,83 @@ accent_bar(base, draw, xy=(60, 840), w_h=(960, 160),
 
 base.convert("RGB").save("slide6.png")
 ```
+
+---
+
+## Patrón F — Split "Tu problema / Nuestra solución" (queja fija + solución que cambia)
+
+Uso: carruseles del patrón `patron-problema-solucion.md`. Es el único layout
+de dos columnas: la columna izquierda ("problema") es **idéntica en todas las
+slides del carrusel** y la derecha ("solución") trae un producto distinto en
+cada una. Fondo claro o plano del tema; el producto va sobre su propio fondo
+limpio (mockup o foto recortada), sin recorte redondeado ni degradado.
+
+Reglas de composición:
+- Misma burbuja, misma posición y mismo texto en todas las slides: generar la
+  columna izquierda **una sola vez** (función o variable) y reutilizarla.
+- Encabezados en dos niveles ("TU" arriba pequeño en bold, "problema" abajo
+  grande en acento; igual a la derecha con "NUESTRA" / "solución"). Usar
+  `FONT_DISPLAY` para ambos o la tipografía de títulos del tema.
+- Línea divisoria vertical centrada (x=540) entre las dos columnas.
+- El producto ocupa el ~60 % de la altura de la columna derecha, centrado.
+- La burbuja de chat va a la altura media de la columna izquierda, con una
+  hora pequeña (ej. "20:21") dentro. **Sin emojis dentro de la burbuja.**
+- Marca (logo) discreto en una esquina, no compite con los encabezados.
+
+```python
+from bg import make_background
+from helpers import *
+import theme
+from PIL import Image, ImageDraw
+
+PROBLEMA = "No tengo qué ponerme"   # una sola queja, igual en todas las slides
+HORA = "20:21"
+PRODUCTOS = ["producto1.png", "producto2.png", "producto3.png", "producto4.png"]
+
+def columna_problema(base):
+    draw = ImageDraw.Draw(base)
+    f_eyebrow = font(FONT_BODY_BOLD, 54)
+    f_title = font(FONT_DISPLAY, 86)
+    draw.text((270, 215), "TU", font=f_eyebrow, fill=WHITE, anchor="mm")
+    draw.text((270, 290), "problema", font=f_title, fill=ACCENT, anchor="mm")
+    # burbuja de chat
+    bx, by, bw, bh = 20, 520, 480, 120
+    draw.rounded_rectangle([bx, by, bx + bw, by + bh], radius=40, fill=ACCENT)
+    draw.polygon([(bx + 6, by + bh - 20), (bx - 14, by + bh + 12), (bx + 60, by + bh - 6)], fill=ACCENT)
+    f_msg = font(FONT_BODY_BOLD, 32)
+    lines = wrap_text(PROBLEMA, f_msg, bw - 70, draw)
+    draw_multiline(draw, (bx + 36, by + 30), lines, f_msg, WHITE, line_spacing=1.15)
+    draw.text((bx + bw - 20, by + bh - 22), HORA, font=font(FONT_BODY_MED, 20), fill=WHITE, anchor="rm")
+
+def columna_solucion(base, ruta_producto):
+    draw = ImageDraw.Draw(base)
+    draw.text((810, 215), "NUESTRA", font=font(FONT_BODY_BOLD, 54), fill=WHITE, anchor="mm")
+    draw.text((810, 290), "solución", font=font(FONT_DISPLAY, 86), fill=ACCENT, anchor="mm")
+    prod = Image.open(ruta_producto).convert("RGBA")
+    prod.thumbnail((500, 640))
+    x = 810 - prod.width // 2
+    y = 360 + (640 - prod.height) // 2
+    base.alpha_composite(prod, (x, y))
+
+for i, ruta in enumerate(PRODUCTOS, start=1):
+    base = make_background(seed=7).convert("RGBA")
+    columna_problema(base)
+    columna_solucion(base, ruta)
+    draw = ImageDraw.Draw(base)
+    draw.line([(540, 230), (540, 1000)], fill=GRAY, width=4)
+    add_logo(base, center=(70, 1010), diameter=70)
+    base.convert("RGB").save(f"slide_f{i}.png")
+```
+
+**Notas:**
+- Las fotos de producto deben ser reales (mockups o fotos del negocio); nunca
+  generadas. Recortar el fondo antes de pegarlas si no son PNG con
+  transparencia.
+- Revisá cada slide con `view` para confirmar que la burbuja y los
+  encabezados quedaron en el mismo lugar en todas.
+- Si los colores del tema tienen poco contraste sobre el fondo claro (ej. el
+  acento sobre `Chalk White`), usar el color de texto oscuro del tema para
+  "TU"/"NUESTRA" y reservar el acento para "problema"/"solución" y la burbuja.
 
 ---
 

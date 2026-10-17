@@ -49,10 +49,14 @@ fuentes) o al propio `SKILL.md`, porque esos viven localmente en cada cuenta
 - `references/patron-pilares-de-valor.md` — estructura de retención
   (preguntas abiertas y mini recompensas) para después del gancho; se
   combina con el patrón rompe-creencia. Módulo Estrategia y Copy.
+- `references/patron-problema-solucion.md` — estructura de carrusel (o reel/
+  historias) con una queja del cliente fija y una solución distinta en cada
+  swipe, para mostrar variedad sin sonar a venta. Estado Nuevo. Módulo
+  Estrategia y Copy.
 - `references/guia-visual-generica.md` — setup de tema (`theme.py`) por
   negocio. Módulo Diseño Visual.
-- `references/patrones-slides.md` — 5 patrones de slide/carrusel. Módulo
-  Diseño Visual.
+- `references/patrones-slides.md` — 6 patrones de slide/carrusel (el F es el
+  split "Tu problema / Nuestra solución"). Módulo Diseño Visual.
 - `references/auditoria-contenido.md` — protocolo de 5 bloques de auditoría
   pre-publicación. Módulo Auditoría.
 - `references/edicion-video.md` — flujo de edición de video. Módulo Edición
