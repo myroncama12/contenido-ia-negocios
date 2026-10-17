@@ -64,6 +64,31 @@ fuentes) o al propio `SKILL.md`, porque esos viven localmente en cada cuenta
 - `references/ffmpeg-guia.md` — comandos ffmpeg de referencia. Módulo
   Edición de Video.
 
+## Guía de usuario (documentación viva)
+
+Hay una guía para usuarios finales —gente que solo usa el skill, sin tocar
+este repo— con ejemplos de pedidos, explicación de cada módulo y preguntas
+frecuentes. Existe en dos formas con el mismo contenido:
+
+- **Documento vivo en Claude** (se comparte con un link y se exporta a PDF
+  desde la propia interfaz): https://claude.ai/code/artifact/b0b80914-ede2-4582-bac1-3dc24c5c22cb
+- **PDF** en este repo: `docs/guia-usuario/Guia-Socio-Creativo.pdf`.
+
+La fuente única es `docs/guia-usuario/guia-usuario.md`. **Cada vez que se
+agregue o cambie un patrón, módulo o función que el usuario final note**:
+
+1. Editá `guia-usuario.md`: actualizá la sección que corresponda, sumá una
+   fila arriba en "Qué hay de nuevo" con la fecha y cambiá la línea
+   "Última actualización".
+2. Corré `python3 docs/guia-usuario/build_pdf.py` (necesita `markdown`,
+   `wkhtmltopdf`, `pypdf` y `reportlab`) para regenerar el PDF.
+3. Reflejá el mismo cambio en el documento vivo de Claude.
+4. Hacé commit de los tres.
+
+Ojo: este repo es público, así que todo lo que esté en `docs/` también lo es.
+La guía usa un solo ejemplo real (el carrusel de la tienda de ropa geek);
+cualquier otro ejemplo debe ser genérico o contar con permiso del negocio.
+
 ## Negocios activos usando este sistema
 
 | Negocio | Cuenta administrada por | Estado |
