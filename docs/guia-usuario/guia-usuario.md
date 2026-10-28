@@ -1,6 +1,6 @@
 # Guía de uso: Socio Creativo
 
-Última actualización: 2026-10-17
+Última actualización: 2026-10-28
 
 Esta guía es para quien usa el Socio Creativo en su negocio, sin necesidad de saber nada técnico. Si es tu primera vez, empezá por "Antes de empezar".
 
@@ -75,6 +75,7 @@ Para cada pieza, el Socio Creativo elige una estructura de contenido probada. No
 | Historia que vende | Una sola historia con un hook en segunda persona que invita a imaginarse usando el producto | Querés vender sin sonar a venta | Stories |
 | Pilares de valor | Preguntas abiertas y pequeñas recompensas repartidas en la pieza | La gente ve el inicio y se va | Reel, carrusel, historias |
 | Problema–solución en espejo | Una queja fija de tu cliente y una solución distinta en cada deslizada | Querés mostrar variedad de producto sin vender | Carrusel de 3 a 6 slides, reel corto |
+| Situación identificable | Una situación de tu cliente ideal con humor o ironía, en un texto fijo y una sola toma | Querés que te descubra gente que no te sigue y tenés poco tiempo para grabar | Reel o TikTok de 6 a 12 s, historia |
 
 Todo se ordena según el embudo de ventas, que tiene cuatro etapas:
 
@@ -229,6 +230,7 @@ Cada vez que el Socio Creativo aprende un patrón nuevo o suma una función, se 
 
 | Fecha | Novedad | Qué cambia para vos |
 | --- | --- | --- |
+| 2026-10-28 | Patrón Situación identificable | Podés pedir videos cortos con una situación con la que tu cliente se identifica, en un texto fijo y una sola toma, para llegar a gente nueva |
 | 2026-10-17 | Patrón Problema–solución en espejo | Podés pedir un carrusel con una queja fija de tu cliente y una solución distinta en cada slide |
 | 2026-10-17 | Diseño de slide en dos columnas (Tu problema / Nuestra solución) | Ese carrusel sale diseñado con tus colores, tipografías y logo |
 | 2026-10-17 | Primera versión de esta guía | Ejemplos de pedidos, módulos y preguntas frecuentes en un solo lugar |

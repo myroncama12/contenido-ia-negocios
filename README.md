@@ -53,6 +53,9 @@ fuentes) o al propio `SKILL.md`, porque esos viven localmente en cada cuenta
   historias) con una queja del cliente fija y una solución distinta en cada
   swipe, para mostrar variedad sin sonar a venta. Estado Nuevo. Módulo
   Estrategia y Copy.
+- `references/patron-situacion-identificable.md` — pieza corta (6 a 12 s) con
+  una situación del buyer persona, un texto fijo y una sola toma, para llegar
+  a gente que no te sigue. Estado Nuevo. Módulo Estrategia y Copy.
 - `references/guia-visual-generica.md` — setup de tema (`theme.py`) por
   negocio. Módulo Diseño Visual.
 - `references/patrones-slides.md` — 6 patrones de slide/carrusel (el F es el

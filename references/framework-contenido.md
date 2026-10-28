@@ -38,6 +38,9 @@ Cada video corto (TikTok/Reel) sigue este flujo basado en retención:
 **Contenido que funciona:** POV del buyer persona en una situación relacionada al
 negocio, "Decime si no te ha pasado que...", contenido sensorial del
 producto/espacio sin texto, reacciones de comunidad.
+**Pieza rápida de descubrimiento:** una situación con la que el buyer persona se
+identifica, en un texto fijo y una sola toma de 6 a 12 s — ver
+`patron-situacion-identificable.md`.
 **KPI:** reproducciones completas, shares.
 
 ### Etapa 2 — CONSIDERACIÓN (Intriga y deseo)

@@ -59,7 +59,7 @@ muestra evolución real en vez de una promesa vacía.
 ## Estructuras completas de pieza (no solo gancho de apertura)
 
 Las categorías de arriba cubren el gancho de apertura. Para la pieza
-completa, dos estructuras alternativas a "Doble Caída"
+completa, estructuras alternativas a "Doble Caída"
 (`framework-contenido.md`):
 
 - **Patrón Rompe-Creencia** (`patron-rompe-creencia.md`) — negar una
@@ -69,6 +69,9 @@ completa, dos estructuras alternativas a "Doble Caída"
 - **Historias que venden** (`historias-generico.md`) — patrón de una sola
   historia (Stories) con hook de imaginación en segunda persona, para
   vender sin sonar a venta directa.
+- **Situación identificable** (`patron-situacion-identificable.md`) — una
+  situación del buyer persona con humor o ironía, en un texto fijo y una sola
+  toma corta. Úsalo cuando el objetivo sea que lo vea gente que no te sigue.
 
 ## Antes de usar la estructura genérica, revisá si el negocio ya tiene algo propio validado
 
